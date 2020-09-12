@@ -1,6 +1,6 @@
 const express =require('express');
-const uuid = require('uuid')
-const {isWebUrl}= require('valid-url')
+const { v4: uuidv4 } = require('uuid');
+const validUrl= require('valid-url')
 const logger = require('./logger')
 const store = require('./store')
 
@@ -24,7 +24,7 @@ bookmarksRouter.route('/bookmarks')
         logger.error('title is required')
         return res.status(400).send('title is required')
     }
-    if(!isWebUrl(url)){
+    if(!validUrl.isUri(url)){
         logger.error(`${url} is invalid url`)
         res.status(400).send(`${url} is invalid url`)
     }
@@ -32,10 +32,10 @@ bookmarksRouter.route('/bookmarks')
         logger.error(`${rating} is invalid`)
         return res.status(400).send('rating must be integer between 0 and 5')
     }
-    const newMark = {id:uuid(), title, url, description, rating}
+    const newMark = {id:uuidv4(), title, url, description, rating}
     store.bookmarks.push(newMark)
-    logger.info(`New BookMark ${id} created`)
-    res.status(201).location(`http://localhost:8000/bookmarks/${id}`)
+    logger.info(`New BookMark ${newMark.id} created`)
+    res.status(201).location(`http://localhost:8000/bookmarks/${newMark.id}`)
     .json(newMark)
 
 })

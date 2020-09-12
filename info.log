@@ -1,0 +1,12 @@
+{"message":"isWebUrl is not a function","level":"error"}
+{"message":"google.com is invalid url","level":"error"}
+{"message":"1 is invalid","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"www.google.com is invalid url","level":"error"}
+{"message":"1 is invalid","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"1 is invalid","level":"error"}
+{"message":"id is not defined","level":"error"}
+{"message":"New BookMark 456a9c99-8494-441a-a621-9bd658fb3596 created","level":"info"}
+{"message":"id is not defined","level":"error"}
+{"message":"New BookMark c86b0e90-4cd7-403b-9636-09d8240af9fa created","level":"info"}
