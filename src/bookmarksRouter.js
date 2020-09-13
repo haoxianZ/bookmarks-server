@@ -48,8 +48,7 @@ bookmarksRouter.route('/bookmarks/:bookmarkId')
         logger.error(`Bookmark ${bookmarkId} not found`)
         return res.status(404).send('Bookmark not found')
     }
-    const result = store.bookmarks.find(c=> c.id == bookmarkId)
-    res.status(200).json(result)
+    res.status(200).json(bookmark)
 }).delete((req,res)=>{
     const {bookmarkId} = req.params
     const index = store.bookmarks.findIndex(c=> c.id ==bookmarkId)
