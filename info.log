@@ -10,3 +10,4 @@
 {"message":"New BookMark 456a9c99-8494-441a-a621-9bd658fb3596 created","level":"info"}
 {"message":"id is not defined","level":"error"}
 {"message":"New BookMark c86b0e90-4cd7-403b-9636-09d8240af9fa created","level":"info"}
+{"message":"Unauthorized request to path: /","level":"error"}
