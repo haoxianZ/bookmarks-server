@@ -2,7 +2,7 @@ const BookmarksService = {
     getAll(knex){
         return knex.select('*').from('bookmarks')
     },
-    insertArticle(knex, newBookmark){
+    insertBookmark(knex, newBookmark){
         return knex.insert(newBookmark).into('bookmarks').returning('*').then(rows => {return rows[0]})
     },
     getById(knex,id){

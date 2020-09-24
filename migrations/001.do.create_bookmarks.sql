@@ -4,4 +4,4 @@ CREATE TABLE bookmarks (
     title TEXT NOT NULL,
     description TEXT,
     url TEXT NOT NULL,
-    rating star_rating NOT NULL;
+    rating star_rating NOT NULL);

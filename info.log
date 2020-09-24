@@ -11,3 +11,76 @@
 {"message":"id is not defined","level":"error"}
 {"message":"New BookMark c86b0e90-4cd7-403b-9636-09d8240af9fa created","level":"info"}
 {"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark 123456 not found","level":"error"}
+{"message":"Bookmark 2 not found","level":"error"}
+{"message":"Bookmark 123456 not found","level":"error"}
+{"message":"Bookmark 2 not found","level":"error"}
+{"message":"Bookmark 123456 not found","level":"error"}
+{"message":"Bookmark 2 not found","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Bookmark 123456 not found","level":"error"}
+{"message":"Bookmark 2 not found","level":"error"}
+{"message":"Bookmark 123456 not found","level":"error"}
+{"message":"Bookmark 2 not found","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/123456","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/911","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/123","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"BookmarksService.insertbookmark is not a function","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/2","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/2","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/2","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/1","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"bookmark is not defined","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/123456","level":"error"}
+{"message":"Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update \"bookmarks\" set \"title\" = ?, \"url\" = ?, \"rating\" = ? where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update \"bookmarks\" set \"title\" = ? where \"id\" = ?","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"select * from \"bookmarks\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"undefined\"","level":"error"}
+{"message":"select * from \"bookmarks\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"undefined\"","level":"error"}
+{"message":"select * from \"bookmarks\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"undefined\"","level":"error"}
+{"message":"select * from \"bookmarks\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"undefined\"","level":"error"}
+{"message":"Unauthorized request to path: /api/articles","level":"error"}
