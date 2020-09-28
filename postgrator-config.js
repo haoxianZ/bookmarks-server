@@ -1,5 +1,5 @@
 require('dotenv').config();
-console('postgrator', process.env.DATABASE_URL, process.env.NODE_ENV)
+console.log('postgrator', process.env.DATABASE_URL, process.env.NODE_ENV)
 module.exports = {
     "migrationDirectory": "migrations",
     "driver": "pg",
