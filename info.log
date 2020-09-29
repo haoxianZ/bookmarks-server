@@ -86,3 +86,4 @@
 {"message":"Unauthorized request to path: /api/articles","level":"error"}
 {"message":"no pg_hba.conf entry for host \"72.83.26.211\", user \"quutzmxvpivgqu\", database \"d831nl1i0c6i3b\", SSL off","level":"error"}
 {"message":"no pg_hba.conf entry for host \"72.83.26.211\", user \"quutzmxvpivgqu\", database \"d831nl1i0c6i3b\", SSL off","level":"error"}
+{"message":"no pg_hba.conf entry for host \"72.83.26.211\", user \"quutzmxvpivgqu\", database \"d831nl1i0c6i3b\", SSL off","level":"error"}
