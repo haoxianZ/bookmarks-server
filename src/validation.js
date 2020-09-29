@@ -6,7 +6,7 @@ function validation(req, res, next) {
 
     if (!authToken || authToken.split(' ')[1] !== API_TOKEN) {
       logger.error(`Unauthorized request to path: ${req.path}`)
-      return res.status(401).json({ error: 'Unauthorized request from the server' })
+      return res.status(401).json({ error: 'Unauthorized request from Haoxian' })
     }
     // move to the next middleware
     next()
